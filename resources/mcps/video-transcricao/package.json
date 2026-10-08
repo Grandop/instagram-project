@@ -1,0 +1,22 @@
+{
+  "name": "video-transcricao",
+  "version": "1.0.0",
+  "description": "MCP para transcrever videos via OpenAI Whisper",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "video-transcricao": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "dotenv": "^16.5.0",
+    "ffmpeg-static": "^5.2.0",
+    "openai": "^4.104.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

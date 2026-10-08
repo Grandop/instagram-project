@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "instagram-lista": {
+      "command": "node",
+      "args": [
+        "/Users/pedrogrando/Documents/ia-driven-dev/projects/instagram-project/resources/mcps/instagram-lista/index.js"
+      ]
+    },
+    "instagram-top-videos-download": {
+      "command": "node",
+      "args": [
+        "/Users/pedrogrando/Documents/ia-driven-dev/projects/instagram-project/resources/mcps/instagram-top-videos-download/index.js"
+      ]
+    },
+    "video-transcricao": {
+      "command": "node",
+      "args": [
+        "/Users/pedrogrando/Documents/ia-driven-dev/projects/instagram-project/resources/mcps/video-transcricao/index.js"
+      ]
+    }
+  }
+}

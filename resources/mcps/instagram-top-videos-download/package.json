@@ -1,0 +1,19 @@
+{
+  "name": "instagram-top-videos-download",
+  "version": "1.0.0",
+  "description": "MCP para baixar os videos mais curtidos a partir de um CSV de lista Instagram",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "instagram-top-videos-download": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

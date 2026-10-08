@@ -1,0 +1,19 @@
+{
+  "name": "instagram-lista",
+  "version": "1.0.0",
+  "description": "MCP para listar videos/reels publicos de contas Instagram",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "instagram-lista": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
